@@ -9,6 +9,8 @@ import Login from '../Login/Login.jsx';
 import ErrorPage from '../ErrorPage/ErrorPage.jsx';
 import Signup from '../Signup/Signup.jsx';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 
 export default function App() {
   const [selectedEncounter, setSelectedEncounter] = useState(null);
