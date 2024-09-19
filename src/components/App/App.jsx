@@ -8,6 +8,7 @@ import EncounterDetails from '../EncounterDetails/EncounterDetails.jsx';
 import Login from '../Login/Login.jsx';
 import ErrorPage from '../ErrorPage/ErrorPage.jsx';
 import Signup from '../Signup/Signup.jsx';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [selectedEncounter, setSelectedEncounter] = useState(null);
